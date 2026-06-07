@@ -1,4 +1,4 @@
-# 📄 Resume Builder
+#  Resume Builder
 
 <div align="center">
 
@@ -19,22 +19,22 @@ A full-stack resume builder that lets users create, preview, customize, and down
 
 ---
 
-## 🌟 Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 📝 **Resume Form** | Fill in name, email, phone, and professional summary |
-| 🎨 **Templates** | Choose from Modern, Classic (free) and Premium Pro (paid) |
-| 👁️ **Live Preview** | See your resume update in real-time as you type |
-| 🤖 **AI Summary** | Auto-generate a professional summary with one click |
-| 💾 **Cloud Storage** | Resumes saved persistently to Supabase |
-| ✏️ **Edit & Delete** | Manage all your saved resumes from a dedicated list view |
-| 📥 **PDF Download** | Export your resume as a PDF via `html2pdf.js` |
-| 🔓 **Premium Unlock** | Simulated upgrade flow to unlock premium templates |
+|  **Resume Form** | Fill in name, email, phone, and professional summary |
+|  **Templates** | Choose from Modern, Classic (free) and Premium Pro (paid) |
+|  **Live Preview** | See your resume update in real-time as you type |
+|  **AI Summary** | Auto-generate a professional summary with one click |
+|  **Cloud Storage** | Resumes saved persistently to Supabase |
+|  **Edit & Delete** | Manage all your saved resumes from a dedicated list view |
+|  **PDF Download** | Export your resume as a PDF via `html2pdf.js` |
+|  **Premium Unlock** | Simulated upgrade flow to unlock premium templates |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -65,7 +65,7 @@ A full-stack resume builder that lets users create, preview, customize, and down
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 resume-builder/
@@ -100,7 +100,7 @@ resume-builder/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -190,7 +190,7 @@ The server runs at [http://localhost:5000](http://localhost:5000).
 
 ---
 
-## 🎨 Resume Templates
+##  Resume Templates
 
 | Template | Tier | Description |
 |---|---|---|
@@ -202,7 +202,7 @@ The server runs at [http://localhost:5000](http://localhost:5000).
 
 ---
 
-## ✨ App Flow
+##  App Flow
 
 ```
 1. Choose a Template → 2. Fill in Resume Details → 3. Generate AI Summary (optional)
@@ -216,17 +216,17 @@ The server runs at [http://localhost:5000](http://localhost:5000).
 
 ---
 
-## 📌 Notes & Assumptions
+##  Notes & Assumptions
 
-- 🔐 **Authentication is not implemented** — resumes are stored without user accounts
-- 🤖 **AI Summary** — the client uses a rule-based random summary; the Express backend integrates OpenAI for production-quality generation
-- 💳 **Premium upgrade** is simulated with a local state flag
-- 🗄️ **MongoDB / Mongoose** is included in the server dependencies for optional extended storage
+-  **Authentication is not implemented** — resumes are stored without user accounts
+-  **AI Summary** — the client uses a rule-based random summary; the Express backend integrates OpenAI for production-quality generation
+-  **Premium upgrade** is simulated with a local state flag
+-  **MongoDB / Mongoose** is included in the server dependencies for optional extended storage
 - This is designed as a **functional prototype**
 
 ---
 
-## 📦 Available Scripts
+##  Available Scripts
 
 ### Client
 
@@ -245,7 +245,7 @@ The server runs at [http://localhost:5000](http://localhost:5000).
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
